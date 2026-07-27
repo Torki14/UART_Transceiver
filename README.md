@@ -17,11 +17,11 @@ Idle(1)  Start  Bit0 Bit1 Bit2 Bit3 Bit4 Bit5 Bit6 Bit7  Stop  Idle(1)
 ## Architecture
 
 ```
-  Tx_Byte[7:0] ──►┌──────────────┐              ┌──────────┐──► Rx_Byte[7:0]
-  Tx_DV        ──►│   uart_tx    │─Tx_Serial───►│ uart_rx  │──► Rx_DV
-  clk          ──►└──────────────┘              └──────────┘◄── Rx_serial
-                     ↓         ↓                     ↑
-                  Tx_Active Tx_Done                 clk
+  Tx_Byte[7:0] ──►┌──────────────┐                             ┌──────────┐──► Rx_Byte[7:0]
+  Tx_DV        ──►│   uart_tx    │────Tx_Serial───►Rx_serial──►│ uart_rx  │
+  clk          ──►└──────────────┘                             └──────────┘──► Rx_DV
+                     ↓         ↓                                    ↑
+                  Tx_Active Tx_Done                                clk
 ```
 
 `uart_tx` and `uart_rx` are fully independent — they share only the `CLKS_PER_BIT` parameter and communicate exclusively through the serial line. No handshaking signals are shared between them.
