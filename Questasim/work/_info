@@ -1,0 +1,94 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Mohamed/Education/Digital_IC_Design/Projects/Projects/UART_Project
+T_opt
+!s110 1783673350
+V5z8P;HZGoEonK21196OkB0
+04 7 4 work uart_tb fast 0
+=1-7c8ae1c42221-6a50b206-1d2-598c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vuart_rx
+Z3 !s110 1783673346
+!i10b 1
+!s100 I6HbcfiYdMkA5Ko0b3@8N2
+IY6=5oI=XPegmk]mL5g`290
+R1
+w1783620222
+8uart_rx.v
+Fuart_rx.v
+!i122 0
+L0 1 97
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1783673346.000000
+Z7 !s107 uart_tb.v|uart_rx.v|uart_tx.v|
+Z8 !s90 -reportprogress|300|uart_tx.v|uart_rx.v|uart_tb.v|+cover|-covercells|
+!i113 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vuart_tb
+R3
+!i10b 1
+!s100 z2YSTZbPJ9UWB?2igcZ:h2
+INmfoF4:MWCN@LMmLY@R=b1
+R1
+w1783673319
+8uart_tb.v
+Fuart_tb.v
+!i122 0
+L0 2 216
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R2
+vuart_tx
+R3
+!i10b 1
+!s100 ?5@6MWlAK]ZjV]R]zFOPP1
+I;;82CObP@IWMie3Rog9PJ0
+R1
+w1783619253
+8uart_tx.v
+Fuart_tx.v
+!i122 0
+L0 1 93
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R2
